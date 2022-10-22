@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
+.navbar {
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 1.5px solid rgb(219, 219, 219);
+  position: fixed;
+}
+
+.navbar_menu {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  max-width: 900px;
+  padding: 20px;
+  margin: auto;
+}
+
+.navbar_instagram {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_instagram a {
+  margin: 8px;
+}
+
+.navbar_pesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 268px;
+  height: 36px;
+  background: #efefef;
+  padding: 0px 25px;
+  border-radius: 8px;
+}
+
+.navbar_pesquisa input {
+  font-weight: 300;
+  margin-left: 5px;
+  border: none;
+  background: #efefef;
+  color: #8e8e8e;
+}
+
+.navbar_icones {
+  max-width: 290px;
+
+  display: flex;
+}
+
+.navbar_icones a {
+  padding: 10px;
+}
